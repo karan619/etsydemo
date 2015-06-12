@@ -4,9 +4,9 @@
 	<div class="col-md-6 thumbnail">
 		<%= image_tag @listing.image.url %>
 	</div>
-	<div class="col-md-6">
+	<div class="col-md-6 caption">
 		<h3> <%= @listing.name %> </h3>
-		<p><%= number_to_currency(@listing.price, unit: "₹") %></p>
+		<h5><%= number_to_currency(@listing.price, unit: "₹") %></h5>
 		<p><%= @listing.description %></p>
 	</div>
 </div>
