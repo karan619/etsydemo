@@ -7,7 +7,7 @@ class Listing < ActiveRecord::Base
 		:storage => :dropbox,
 	  :dropbox_credentials => Rails.root.join("config/dropbox.yml"),
 	  :dropbox_options => {environment: ENV["RACK_ENV"]},
-		:path => ":style/:id_:filename"
+		:path => "etsy/:style/:id_:filename"
 		validates_attachment_content_type :image, :content_type => /\Aimage\/.*\Z/
 	end
 end
