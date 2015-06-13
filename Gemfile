@@ -33,6 +33,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 #for handling image
 gem "paperclip", "~> 4.2"
 
+gem "paperclip-dropbox", ">= 1.1.7"
+
 gem 'bootstrap-sass'
 
 group :production do
