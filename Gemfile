@@ -33,9 +33,14 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 #for handling image
 gem "paperclip", "~> 4.2"
 
+# Dropbox image integration
 gem "paperclip-dropbox", ">= 1.1.7"
 
+# This is for heroku and github security
 gem "figaro"
+
+# Handling users made easy
+gem 'devise'
 
 gem 'bootstrap-sass'
 
