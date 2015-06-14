@@ -12,7 +12,7 @@
 	<% flash.each do |name, msg| %>
 
 		<div class="alert alert-<%= name.to_s == 'notice'? 'success' : 'danger' %>">
-			<%= content_tag :h5, msg, id: "#{name}" %>
+			<%= content_tag :h4, msg, id: "#{name}" %>
 			<!-- <button type="button" class="close" data-dismiss="alert" aria-label="Close" aria-hidden="true" >&times;</button> -->
 		</div>
 	

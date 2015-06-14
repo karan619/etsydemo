@@ -5,7 +5,7 @@ module DeviseHelper
     sentence = I18n.t('errors.messages.not_saved', count: resource.errors.count, resource: resource.class.model_name.human.downcase) 
     html=<<-HTML 
     <div class="alert alert-danger"> 
-      <h5>#{sentence}</h5>
+      <h4>#{sentence}</h4>
       #{messages}
     </div>
     HTML
