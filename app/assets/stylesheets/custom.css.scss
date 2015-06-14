@@ -34,11 +34,15 @@ body{
 	margin-bottom: 2px;
 }
 .alert{
-	clear: both;
-	/*
-	position: fixed;
-	z-index: 1000;
- 	right: 0;*/
-	/*transform: translateX(-100%);*/
-	/*I don't know what it is*/
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999;
+	text-align: center;
+	margin: 0;
+	font-weight: bold;
+	color: #fff;
+	letter-spacing: 1px;
+
 }
