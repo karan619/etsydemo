@@ -31,12 +31,9 @@ body{
 
 .alert{
 	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
+	top: 60px;
+	left: 1%;
 	z-index: 999;
-	text-align: left;
-	margin: 0;
 	font-weight: bolder;
 	letter-spacing: 1px;
 
@@ -52,8 +49,10 @@ body{
 }
 
 .jumbotron{
-	background-image: url('https://dl.dropboxusercontent.com/s/7ixs2h32ax12vw5/jumbotron.jpg?raw=1');
+	background-image: url('http://static1.squarespace.com/static/507833d9e4b0721a85bbd16e/t/5329e497e4b0702adad001b6/1395254424820/');
+	/*background-image: url('https://dl.dropboxusercontent.com/s/7ixs2h32ax12vw5/jumbotron.jpg?raw=1');*/
 	font-family: guardian-egypt, georgia, serif;
-	color: white;
+	color: #000;
+	text-align: center;
 	font-weight: bolder;
 }
