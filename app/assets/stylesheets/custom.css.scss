@@ -30,10 +30,9 @@ body{
 }
 
 .alert{
-	position: absolute;
-	top: 5%;
-	left: 5%;
-	width: 90%;
+	position: fixed;
+	bottom: 8%;
+	right: 2%;
 	z-index: 999;
 	font-weight: bolder;
 	letter-spacing: 1px;
@@ -50,10 +49,11 @@ body{
 }
 
 .jumbotron{
-	background-image: url('http://static1.squarespace.com/static/507833d9e4b0721a85bbd16e/t/5329e497e4b0702adad001b6/1395254424820/');
+	background-image: url('//img0.etsystatic.com/site-assets/homepage-carousel/fennecdesignco.jpg');
 	/*background-image: url('https://dl.dropboxusercontent.com/s/7ixs2h32ax12vw5/jumbotron.jpg?raw=1');*/
 	font-family: guardian-egypt, georgia, serif;
-	color: #000;
+	color: white;
+	background-color: black;
 	text-align: center;
 	font-weight: bolder;
 }
