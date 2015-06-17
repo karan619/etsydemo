@@ -7,7 +7,7 @@
 		<th class="text-center">Action</th>
 	</tr>
 	<% @listings.each do |listing| %>
-	<tr>
+	<tr class="text-center">
 		<td><%= image_tag listing.image.url(:thumb) %></td>
 		<td><%= listing.name %></td>
 		<td><%= listing.description %></td>
